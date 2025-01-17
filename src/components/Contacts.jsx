@@ -11,11 +11,11 @@ function Contacts() {
             <div className='flex gap-8 border border-slate-700 rounded-3xl px-8 py-6'>
                 <div className='flex gap-2 items-center'>
                     <div><img style={{height:'32px'}} src={email_icon} alt="An email icon" /></div>
-                        <span>Email Me</span>
+                        <span className='text-slate-800 cursor-pointer'>Email Me</span>
                     </div>
                 <div className='flex gap-2 items-center'>
                     <img style={{height:'32px'}} src={linkedIn_contact_icon} alt="A linkedIn icon" />
-                    <div>LinkedIn</div>
+                    <div className='cursor-pointer'>LinkedIn</div>
                 </div>
             </div>
         </div>

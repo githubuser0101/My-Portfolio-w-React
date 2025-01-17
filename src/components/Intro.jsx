@@ -17,8 +17,8 @@ function Intro() {
                     <button className='rounded-full px-4 py-3 border border-slate-700 font-bold text-sm duration-300 hover:bg-stone-900 hover:text-white'>Contact Info</button>
                 </div>
                 <div className='flex justify-center gap-5 my-4 items-center'>
-                    <img style={{height: '42px'}} src={github_icon} alt="Github Icon" />
-                    <img style={{height: '32px'}} src={linkedin_icon} alt="LinkedIn Icon" />
+                    <img  style={{height: '42px', cursor: 'pointer'}} src={github_icon} alt="Github Icon" />
+                    <img  style={{height: '32px', cursor: 'pointer'}} src={linkedin_icon} alt="LinkedIn Icon" />
                 </div>
             </div>
         </div>
