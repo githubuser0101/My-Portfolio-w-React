@@ -3,13 +3,9 @@ import Intro from "./components/Intro"
 import About from "./components/About"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
+import Contacts from "./components/Contacts"
 
 function App() {
-  const images = [
-    'https://picsum.photos/400/300',
-    'https://picsum.photos/400/301',
-    'https://picsum.photos/400/302'
-  ]
 
   return (
     <div className="w-full px-24 flex flex-col items-center gap-16">
@@ -17,7 +13,8 @@ function App() {
       <Intro />
       <About />
       <Skills />
-      <Projects images={images}/>
+      {/* <Projects /> */}
+      <Contacts />
     </div>
   )
 }
