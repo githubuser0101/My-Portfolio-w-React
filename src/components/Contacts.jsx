@@ -6,7 +6,7 @@ function Contacts() {
         <div className='mb-4'>
             <div>
                 <div className='text-stone-400 text-center'>Get in Touch</div>
-                <div className="font-bold text-slate-950 text-4xl text-center">Contact Me</div>
+                <div className="font-bold text-slate-950 text-4xl text-center mb-6">Contact Me</div>
             </div>
             <div className='flex gap-8 border border-slate-700 rounded-3xl px-8 py-6'>
                 <div className='flex gap-2 items-center'>
