@@ -1,13 +1,13 @@
-import Header from "./components/Header"
-import Intro from "./components/Intro"
-import About from "./components/About"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
-import Contacts from "./components/Contacts"
-import Footer from "./components/Footer"
+import Header from "./components/Header";
+import Intro from "./components/Intro";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
+import Scroll from "./components/Scroll";
 
 function App() {
-
   // const projectImages = [
   //   "C:/Users/nowma/Desktop/The Portfolio/The Portfolio/src/assets/project_images/buyfy.jpeg",
   //   "C:/Users/nowma/Desktop/The Portfolio/The Portfolio/src/assets/project_images/Step-one.jpeg",
@@ -23,11 +23,12 @@ function App() {
       <Intro />
       <About />
       <Skills />
-      <Projects /> 
+      <Projects />
       <Contacts />
       <Footer />
+      <Scroll />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
